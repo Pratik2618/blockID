@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyUnableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyMaybelaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyMaybelaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyOkButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyOkButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyImageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyImageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyMyIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyMyIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyEmailTextOfMyIdentityPage text is equal to Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEmail]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEmailTabOfMyIdentityPage]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEmailTabOfMyIdentityPage]]>
+    </line>
+    <line>
+      <![CDATA[Enter text atul.sharma@1kosmos.com at locator verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButtonOfEmailVerification]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButtonOfEmailVerification]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCheckYourEmailText text is equal to Check Your Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCheck Your Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCheckEmailTab text is equal to Check Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCheck Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyResendEmailTab text is equal to Resend Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isResend Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCheckEmailTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCheckEmailTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyInboxTextOfMail text is equal to Inbox]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isInbox]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyVerificationMailOf1kosmos]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyVerificationMailOf1kosmos]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-07-24T14:08:51 IST" name="Cosmos Email Enroll Functionality" finished-at="2023-07-24T14:09:44 IST" duration-ms="53574">
+    <groups>
+    </groups>
+    <test started-at="2023-07-24T14:08:51 IST" name="verify Enroll Email To My Identity" finished-at="2023-07-24T14:09:44 IST" duration-ms="53574">
+      <class name="mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:08:50 IST" name="beforeSuiteWorks" finished-at="2023-07-24T14:08:51 IST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteWorks -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:08:51 IST" name="init" finished-at="2023-07-24T14:09:01 IST" duration-ms="10111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:09:01 IST" name="verifyEnrollEmailToMyIdentity" finished-at="2023-07-24T14:09:44 IST" duration-ms="42987" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyUnableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyMaybelaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyMaybelaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyOkButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyOkButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyImageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyImageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyMyIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyMyIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyEmailTextOfMyIdentityPage text is equal to Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEmail]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEmailTabOfMyIdentityPage]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEmailTabOfMyIdentityPage]]>
+            </line>
+            <line>
+              <![CDATA[Enter text atul.sharma@1kosmos.com at locator verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyContinueButtonOfEmailVerification]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButtonOfEmailVerification]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCheckYourEmailText text is equal to Check Your Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCheck Your Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCheckEmailTab text is equal to Check Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCheck Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyResendEmailTab text is equal to Resend Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isResend Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCheckEmailTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCheckEmailTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyInboxTextOfMail text is equal to Inbox]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isInbox]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyVerificationMailOf1kosmos]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyVerificationMailOf1kosmos]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollEmailToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:09:44 IST" name="tearDown" finished-at="2023-07-24T14:09:44 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollEmailToMyIdentity status=SUCCESS method=CosmosMyIdentityDetailsTest.verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest -->
+    </test> <!-- verify Enroll Email To My Identity -->
+  </suite> <!-- Cosmos Email Enroll Functionality -->
+</testng-results>

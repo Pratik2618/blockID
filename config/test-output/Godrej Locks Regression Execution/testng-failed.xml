@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Godrej Locks Regression Execution]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Verify user is checked Welcome Screen(failed)">
+    <classes>
+      <class name="web.tests.login.LoginTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="verifyWelcomeScreen"/>
+        </methods>
+      </class> <!-- web.tests.login.LoginTests -->
+    </classes>
+  </test> <!-- Verify user is checked Welcome Screen(failed) -->
+  <test thread-count="5" name="Verify user is Forgot Password Screen(failed)">
+    <classes>
+      <class name="web.tests.login.LoginTests">
+        <methods>
+          <include name="verifyForgotPasswordScreen"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.login.LoginTests -->
+    </classes>
+  </test> <!-- Verify user is Forgot Password Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked List View on Rooms Screen(failed)">
+    <classes>
+      <class name="web.tests.rooms.RoomsTests">
+        <methods>
+          <include name="verifyListViewOnRoomsSections"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.rooms.RoomsTests -->
+    </classes>
+  </test> <!-- Verify user is checked List View on Rooms Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Add, Edit, Delete Rooms(failed)">
+    <classes>
+      <class name="web.tests.rooms.RoomsTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="verifyAddEditDeleteRooms"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.rooms.RoomsTests -->
+    </classes>
+  </test> <!-- Verify user is checked Add, Edit, Delete Rooms(failed) -->
+  <test thread-count="5" name="Verify user is checked Locks on Inventory Screen(failed)">
+    <classes>
+      <class name="web.tests.inventory.InventoryTests">
+        <methods>
+          <include name="verifyLocksOnInventorySections"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.inventory.InventoryTests -->
+    </classes>
+  </test> <!-- Verify user is checked Locks on Inventory Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Repeaters on Inventory Screen(failed)">
+    <classes>
+      <class name="web.tests.inventory.InventoryTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="verifyRepeatersOnInventorySections"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.inventory.InventoryTests -->
+    </classes>
+  </test> <!-- Verify user is checked Repeaters on Inventory Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Gateways on Inventory Screen(failed)">
+    <classes>
+      <class name="web.tests.inventory.InventoryTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="verifyGatewaysOnInventorySections"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.inventory.InventoryTests -->
+    </classes>
+  </test> <!-- Verify user is checked Gateways on Inventory Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Room Type on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="verifyRoomType"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Room Type on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Add Edit Delete Floor on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="verifyAddEditDeleteFloor"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Add Edit Delete Floor on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Floor Deleted on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="verifyTheRoomsGetsAutoDeleted"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Floor Deleted on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Add Edit Delete Block on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="verifyAddEditDeleteBlocks"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Add Edit Delete Block on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Block Deleted on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="verifyFloorsAndRoomsAreAutoDeleted"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Block Deleted on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Policies on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="verifyPolicies"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Policies on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Channels on Master Screen(failed)">
+    <classes>
+      <class name="web.tests.master.MasterTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+          <include name="verifyAddEditDeleteChannels"/>
+        </methods>
+      </class> <!-- web.tests.master.MasterTests -->
+    </classes>
+  </test> <!-- Verify user is checked Channels on Master Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Booking List View Screen(failed)">
+    <classes>
+      <class name="web.tests.bookings.BookingsTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="verifyBookingFlow"/>
+          <include name="init"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.bookings.BookingsTests -->
+    </classes>
+  </test> <!-- Verify user is checked Booking List View Screen(failed) -->
+  <test thread-count="5" name="Verify user is checked Staff List View Screen(failed)">
+    <classes>
+      <class name="web.tests.staff.StaffTests">
+        <methods>
+          <include name="beforeSuiteWorks"/>
+          <include name="init"/>
+          <include name="verifyStaffListOnStaff"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- web.tests.staff.StaffTests -->
+    </classes>
+  </test> <!-- Verify user is checked Staff List View Screen(failed) -->
+</suite> <!-- Failed suite [Godrej Locks Regression Execution] -->

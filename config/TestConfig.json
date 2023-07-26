@@ -1,0 +1,23 @@
+{
+  "run": "emailenrollAndroid",
+  "config": {
+    "emailenrollAndroid": {
+      "platform": "android",
+      "capabilities": {
+        "platformName": "Android",
+        "appium:deviceName": "VCPRWGNVQSO7CINF",
+        "appium:deviceOrientation": "portrait",
+        "appium:platformVersion": "12.0",
+        "appium:autoGrantPermissions": true,
+        "appium:noReset": false,
+        "appium:appPackage": "com.onekosmos.kernel.blockid",
+        "appium:appActivity": "com.onekosmos.kernel.ui.LauncherActivity"
+      },
+      "testNGsuite": [
+        "emailenroll.xml"
+      ],
+      "appiumPlatform": "local",
+      "appiumURL": "http://0.0.0.0:4723/wd/hub"
+    }
+  }
+}

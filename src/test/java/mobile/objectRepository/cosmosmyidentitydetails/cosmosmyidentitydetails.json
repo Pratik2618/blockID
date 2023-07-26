@@ -1,0 +1,211 @@
+{
+  "verifyEmailTextOfMyIdentityPage": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView",
+    "iOSLocator": ""
+  },
+  "verifyEmailTabOfMyIdentityPage": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]",
+    "iOSLocator": ""
+  },
+  "verifyEmailVerificationTextAfterClickOnEmailTab": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header",
+    "iOSLocator": ""
+  },
+  "verifyEnterYourEmailAddressFieldBox" : {
+    "objectGenerate" : "generate",
+    "elementType" : "box",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/edt_email",
+    "iOSLocator" : ""
+  },
+  "verifyContinueButtonOfEmailVerification" : {
+    "objectGenerate" : "generate",
+    "elementType" : "button",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_continue_email",
+    "iOSLocator" : ""
+  },
+  "verifyCheckYourEmailText" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header",
+    "iOSLocator" : ""
+  },
+  "verifyCheckEmailTab" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_check_email",
+    "iOSLocator" : ""
+  },
+  "verifyResendEmailTab" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_resend_email",
+    "iOSLocator" : ""
+  },
+  "verifyInboxTextOfMail" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.google.android.gm:id/conversation_list_folder_name",
+    "iOSLocator" : ""
+  },
+  "verifyVerificationMailOf1kosmos" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.FrameLayout/android.widget.FrameLayout[2]/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout/android.support.v7.widget.RecyclerView/android.view.ViewGroup[1]",
+    "iOSLocator" : ""
+  },
+
+
+
+
+
+
+  "verifyPhoneTextOfIdentityPage": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView",
+    "iOSLocator": ""
+  },
+  "verifyPhoneTabOfMyIdentityPage": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[1]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]",
+    "iOSLocator": ""
+  },
+  "verifyNoSimdetectedText" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/carrierText",
+    "iOSLocator" : ""
+  },
+  "verifyActivrSimRequiredText" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_no_sim_detected",
+    "iOSLocator" : ""
+  },
+  "verifyLiveIdTextOfMyIdentityPage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[3]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView",
+    "iOSLocator" : ""
+  },
+  "clickOnLiveIdTab" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[3]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]",
+    "iOSLocator" : ""
+  },
+  "verifyNextTabOfLiveId" : {
+    "objectGenerate" : "generate",
+    "elementType" : "tab",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_next",
+    "iOSLocator" : ""
+  },
+  "verifyCancelTabOfLiveId" : {
+    "objectGenerate" : "generate",
+    "elementType" : "tab",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_cancel",
+    "iOSLocator" : ""
+  },
+  "verifyAdjustFaceUntilRedToGreenText" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/tv_error",
+    "iOSLocator" : ""
+  },
+  "verifyPleaseAlignFaceProperlyMessage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_msg",
+    "iOSLocator" : ""
+  },
+
+
+  "verifyDriversLicenseText" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.TextView",
+    "iOSLocator" : ""
+  },
+  "clickDriversLicenseTextOfMyIdentity" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]",
+    "iOSLocator" : ""
+  },
+  "verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_dialog_error_message",
+    "iOSLocator" : ""
+  },
+  "verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType"  : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_dialog_error_btn1",
+    "iOSLocator" : ""
+  },
+
+
+  "verifyPassportTextOfMyIdentityPage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]/android.widget.TextView",
+    "iOSLocator" : ""
+  },
+  "clickOnPassportTextOfMyIdentityPage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "xpath",
+    "androidLocator" : "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.ScrollView/android.view.ViewGroup/android.widget.FrameLayout[2]/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[2]",
+    "iOSLocator" : ""
+  },
+
+
+
+  "verifyYourDidTextOfMyIdentityPage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/text_did_assets",
+    "iOSLocator" : ""
+  },
+  "verifyIdentityValueOfYourDidOfMyIdentityPage" : {
+    "objectGenerate" : "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_did",
+    "iOSLocator" : ""
+  }
+}

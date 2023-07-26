@@ -1,0 +1,72 @@
+{
+  "verifyUnableTouchIdText": {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enroll_identity_title",
+    "iOSLocator": ""
+  },
+  "verifySettingsButton": {
+    "objectGenerate": "generate",
+    "elementType" : "button",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_setup_identity",
+    "iOsLocator" : ""
+  },
+  "verifyEnableButtonOfTouchIdFaceId": {
+    "objectGenerate": "generate",
+    "elementType" : "button",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_setup_identity",
+    "iOsLocator" : ""
+  },
+  "verifyMaybelaterTab": {
+    "objectGenerate": "generate",
+    "elementType" : "button",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_maybe_later",
+    "iOsLocator" : ""
+  },
+  "verifySetupBiometricMessage" : {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enroll_identity_message",
+    "iOsLocator" : ""
+  },
+  "verifyOkButton" : {
+    "objectGenerate": "generate",
+    "elementType" : "button",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_ok",
+    "iOsLocator" : ""
+  },
+  "verifyImageOfMenu" : {
+    "objectGenerate": "generate",
+    "elementType" : "box",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_hamburger_menu",
+    "iOsLocator" : ""
+  },
+  "verifyMenuText" : {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_menu",
+    "iOsLocator" : ""
+  },
+  "verifyCloseTab" : {
+    "objectGenerate": "generate",
+    "elementType" : "tab",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_close",
+    "iOsLocator" : ""
+  },
+  "verifyYourPasscodeText" : {
+    "objectGenerate": "generate",
+    "elementType" : "text",
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_passcode",
+    "iOsLocator" : ""
+  }
+}
