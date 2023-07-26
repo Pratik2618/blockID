@@ -1,0 +1,41 @@
+{
+  "unableTouchIdText": {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enroll_identity_title"
+  },
+
+  "enableButtonOfTouchIdFaceId": {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_setup_identity"
+  },
+
+  "mayBeLaterTab": {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_maybe_later"
+  },
+
+  "okButton" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_ok"
+  },
+
+  "imageOfMenu" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_hamburger_menu"
+  },
+
+  "menuText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_menu"
+  },
+
+  "closeTab" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_close"
+  },
+
+  "yourPasscodeText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_passcode"
+  }
+}

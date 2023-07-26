@@ -1,0 +1,103 @@
+{
+  "verifyEnterYourPinTextAfterClickOnRecoveryMnemonic" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enter_pin"
+  },
+
+  "verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/edt_enter_pin"
+  },
+
+  "verifyRecoveryMnemonicTextAfterEnterThePin" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verifyNextButtonOfRecoveryMnemonic" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_next"
+  },
+
+  "verifyClickOnNextButtonTwelveMnemonicPhrasesShouldOpen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_info"
+  },
+
+  "verifyCopyPhrasesTextAtRecoveryMnemonicScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_copy"
+  },
+
+  "verifyScreenshotTextAtRecoveryMnemonicScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_screenshot"
+  },
+
+  "verifyOkButtonOfRecoveryMnemonicScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_ok"
+  },
+
+
+
+  "verifyZeroTrustTextAfterClickOnZeroTrust" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verifyTouchIdFaceIdEnabledTextAfterClickOnZeroTrust" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_touchid"
+  },
+
+  "verifyScreenLockEnabledTextAfterClickOnZeroTrust" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_screen_lock"
+  },
+
+  "verifyDeviceNotRootedTextAfterClickOnZeroTrust" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_root"
+  },
+
+
+
+  "verifyAboutTextAfterClickOnAboutOfMenuList" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verify1kosmosLogoOfAboutScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//android.widget.Image[@resource-id=\"logo\"])"
+  },
+
+  "verifyAppVersionValueInAboutScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='1.9.41'])"
+  },
+
+  "verifyAppBuildValueInAboutScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='64ABF85C)'])"
+  },
+
+  "verifyEULATextAfterClickOnEULAOfMenuList" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verify1kosmosLogoOfEULAScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//android.widget.Image[@resource-id=\"logo\"])"
+  },
+
+  "verifyBackButtonOfEULAScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_back"
+  }
+
+
+
+}

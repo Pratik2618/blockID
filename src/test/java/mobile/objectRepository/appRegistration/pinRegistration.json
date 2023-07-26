@@ -1,0 +1,51 @@
+{
+  "verifyUserAgreementLink" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_user_agreement"
+  },
+
+  "verifyBackButtonOf1cosmosAgreement" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/img_back"
+  },
+
+  "verifyContinueButton" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_register"
+  },
+
+  "VerifyAuthLoginPin" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_device_auth_login"
+  },
+
+  "VerifyPinRegistration" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "VerifyEnterNewPin" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enter_pin"
+  },
+
+  "verifyPinFieldBox" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/edt_enter_pin"
+  },
+
+  "VerifyConfirmNewPin" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_enter_pin"
+  },
+
+  "verifyConfirmNewPinFieldBox" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/edt_enter_pin"
+  },
+
+  "verifyThankYouMessage" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_dialog_title"
+  }
+}

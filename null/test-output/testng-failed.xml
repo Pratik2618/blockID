@@ -3,14 +3,14 @@
 <suite name="Failed suite [Cosmos Pin Set Functionality]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="verify Pin setUp Successfully(failed)">
     <classes>
-      <class name="mobile.tests.cosmospinsetuptest.Login1CosmosTest">
+      <class name="mobile.tests.appRegistrationTest.PinRegistrationTest">
         <methods>
           <include name="verifyPinsetUpSuccessfully"/>
           <include name="tearDown"/>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
         </methods>
-      </class> <!-- mobile.tests.cosmospinsetuptest.Login1CosmosTest -->
+      </class> <!-- mobile.tests.appRegistrationTest.PinRegistrationTest -->
     </classes>
   </test> <!-- verify Pin setUp Successfully(failed) -->
 </suite> <!-- Failed suite [Cosmos Pin Set Functionality] -->

@@ -1,0 +1,144 @@
+{
+  "verifyEmailTextOfMyIdentityScreen": {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Email']"
+  },
+
+  "verifyEmailTabOfMyIdentityScreen": {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Email']//parent::android.view.ViewGroup)"
+  },
+
+  "verifyEmailVerificationTextAfterClickOnEmailTab": {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verifyEnterYourEmailAddressFieldBox" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/edt_email"
+  },
+
+  "verifyContinueButtonOfEmailVerification" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_continue_email"
+  },
+
+  "verifyCheckYourEmailText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_header"
+  },
+
+  "verifyCheckEmailTab" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_check_email"
+  },
+
+  "verifyResendEmailTab" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_resend_email"
+  },
+
+  "verifyInboxTextOfMail" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.google.android.gm:id/conversation_list_folder_name"
+  },
+
+
+
+
+  "verifyPhoneTextOfIdentityScreen": {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Phone']"
+  },
+  "verifyPhoneTabOfMyIdentityScreen": {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Phone']//parent::android.view.ViewGroup)"
+  },
+
+  "verifyNoSimDetectedText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/carrierText"
+  },
+
+  "verifyActiveSimRequiredText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_no_sim_detected"
+  },
+
+
+  "verifyLiveIdTextOfMyIdentityScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Live ID']"
+  },
+
+  "clickOnLiveIdTab" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Live ID']//parent::android.view.ViewGroup)"
+  },
+
+  "verifyNextTabOfLiveId" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_next"
+  },
+
+  "verifyCancelTabOfLiveId" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_cancel"
+  },
+
+  "verifyAdjustFaceUntilRedToGreenText" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/tv_error"
+  },
+
+  "verifyPleaseAlignFaceProperlyMessage" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_msg"
+  },
+
+
+  "verifyDriversLicenseText" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Drivers License']"
+  },
+
+  "clickDriversLicenseTextOfMyIdentity" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Drivers License']//parent::android.view.ViewGroup)"
+  },
+
+  "verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_dialog_error_message"
+  },
+
+  "verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense" : {
+    "locatorType"  : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/btn_dialog_error_btn1"
+  },
+
+
+
+  "verifyPassportTextOfMyIdentityScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Passport']"
+  },
+
+  "clickOnPassportTextOfMyIdentityScreen" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Passport']//parent::android.view.ViewGroup)"
+  },
+
+
+
+  "verifyYourDidTextOfMyIdentityScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/text_did_assets"
+  },
+
+  "verifyIdentityValueOfYourDidOfMyIdentityScreen" : {
+    "locatorType" : "id",
+    "androidLocator" : "com.onekosmos.kernel.blockid:id/txt_did"
+  }
+}

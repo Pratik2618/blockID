@@ -147,16 +147,16 @@
     <groups>
     </groups>
     <test started-at="2023-07-24T14:08:51 IST" name="verify Enroll Email To My Identity" finished-at="2023-07-24T14:09:44 IST" duration-ms="53574">
-      <class name="mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest">
-        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:08:50 IST" name="beforeSuiteWorks" finished-at="2023-07-24T14:08:51 IST" duration-ms="87" status="PASS">
+      <class name="mobile.tests.myIdentityScreenTest.MyIdentityScreenTest">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@6eda5c9]" started-at="2023-07-24T14:08:50 IST" name="beforeSuiteWorks" finished-at="2023-07-24T14:08:51 IST" duration-ms="87" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuiteWorks -->
-        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:08:51 IST" name="init" finished-at="2023-07-24T14:09:01 IST" duration-ms="10111" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@6eda5c9]" started-at="2023-07-24T14:08:51 IST" name="init" finished-at="2023-07-24T14:09:01 IST" duration-ms="10111" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:09:01 IST" name="verifyEnrollEmailToMyIdentity" finished-at="2023-07-24T14:09:44 IST" duration-ms="42987" status="PASS">
+        <test-method signature="verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@6eda5c9]" started-at="2023-07-24T14:09:01 IST" name="verifyEnrollEmailToMyIdentity" finished-at="2023-07-24T14:09:44 IST" duration-ms="42987" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Click on verifyContinueButton]]>
@@ -301,18 +301,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- verifyEnrollEmailToMyIdentity -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9]" started-at="2023-07-24T14:09:44 IST" name="tearDown" finished-at="2023-07-24T14:09:44 IST" duration-ms="439" status="PASS">
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@6eda5c9]" started-at="2023-07-24T14:09:44 IST" name="tearDown" finished-at="2023-07-24T14:09:44 IST" duration-ms="439" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyEnrollEmailToMyIdentity status=SUCCESS method=CosmosMyIdentityDetailsTest.verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest@6eda5c9] output=Click on verifyContinueButton]]]>
+                  <![CDATA[[TestResult name=verifyEnrollEmailToMyIdentity status=SUCCESS method=CosmosMyIdentityDetailsTest.verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@6eda5c9] output=Click on verifyContinueButton]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mobile.tests.cosmosmyidentitydetailstest.CosmosMyIdentityDetailsTest -->
+      </class> <!-- mobile.tests.myIdentityScreenTest.MyIdentityScreenTest -->
     </test> <!-- verify Enroll Email To My Identity -->
   </suite> <!-- Cosmos Email Enroll Functionality -->
 </testng-results>

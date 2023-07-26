@@ -103,7 +103,7 @@
                     <div class="method-list-content failed suite-Cosmos_Pin_Set_Functionality">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Cosmos_Pin_Set_Functionality" title="mobile.tests.cosmospinsetuptest.Login1CosmosTest" class="method navigator-link" hash-for-method="verifyPinsetUpSuccessfully">verifyPinsetUpSuccessfully</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Cosmos_Pin_Set_Functionality" title="mobile.tests.appRegistrationTest.PinRegistrationTest" class="method navigator-link" hash-for-method="verifyPinsetUpSuccessfully">verifyPinsetUpSuccessfully</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Cosmos_Pin_Set_Functionality -->
@@ -121,7 +121,7 @@
           <div class="suite-Cosmos_Pin_Set_Functionality-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">mobile.tests.cosmospinsetuptest.Login1CosmosTest</span>
+              <span class="class-name">mobile.tests.appRegistrationTest.PinRegistrationTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -130,18 +130,20 @@
                   </a> <!-- verifyPinsetUpSuccessfully -->
                   <span class="method-name">verifyPinsetUpSuccessfully</span>
                   <div class="stack-trace">java.lang.IllegalArgumentException: Input must be set
-	at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-	at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:94)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
-	at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
-	at com.onekosmos.kernel.blockid.performaction.autoweb.Wait.waitUntilElementIsVisible(Wait.java:30)
-	at mobile.objectRepository.cosmospinsetup.Login1Cosmos.clickOnUserAgreementLink(Login1Cosmos.java:27)
-	at mobile.tests.cosmospinsetuptest.Login1CosmosTest.verifyPinsetUpSuccessfully(Login1CosmosTest.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-	at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.java:83)
-	at runner.Runner.main(Runner.java:11)
-... Removed 22 stack frames
-</div> <!-- stack-trace -->
+                    at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
+                    at org.openqa.selenium.support.ui.FluentWait.&lt;init&gt;(FluentWait.java:94)
+                    at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:74)
+                    at org.openqa.selenium.support.ui.WebDriverWait.&lt;init&gt;(WebDriverWait.java:43)
+                    at com.onekosmos.kernel.blockid.performaction.autoweb.Wait.waitUntilElementIsVisible(Wait.java:30)
+                    at
+                    mobile.objectRepository.appRegistration.PinRegistration.clickOnUserAgreementLink(Login1Cosmos.java:27)
+                    at
+                    mobile.tests.appRegistrationTest.PinRegistrationTest.verifyPinsetUpSuccessfully(Login1CosmosTest.java:16)
+                    at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+                    at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.java:83)
+                    at runner.Runner.main(Runner.java:11)
+                    ... Removed 22 stack frames
+                  </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -158,11 +160,11 @@
 &lt;suite name=&quot;Cosmos Pin Set Functionality&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;verify Pin setUp Successfully&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;mobile.tests.cosmospinsetuptest.Login1CosmosTest&quot;&gt;
+      &lt;class name=&quot;mobile.tests.appRegistrationTest.PinRegistrationTest&quot;&gt;
         &lt;methods&gt;
           &lt;include name=&quot;verifyPinsetUpSuccessfully&quot;/&gt;
         &lt;/methods&gt;
-      &lt;/class&gt; &lt;!-- mobile.tests.cosmospinsetuptest.Login1CosmosTest --&gt;
+      &lt;/class&gt; &lt;!-- mobile.tests.appRegistrationTest.PinRegistrationTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- verify Pin setUp Successfully --&gt;
 &lt;/suite&gt; &lt;!-- Cosmos Pin Set Functionality --&gt;
@@ -195,21 +197,22 @@
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_Cosmos_Pin_Set_Functionality');
-function tableData_Cosmos_Pin_Set_Functionality() {
-var data = new google.visualization.DataTable();
-data.addColumn('number', 'Number');
-data.addColumn('string', 'Method');
-data.addColumn('string', 'Class');
-data.addColumn('number', 'Time (ms)');
-data.addRows(1);
-data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyPinsetUpSuccessfully')
-data.setCell(0, 2, 'mobile.tests.cosmospinsetuptest.Login1CosmosTest')
-data.setCell(0, 3, 8);
-window.suiteTableData['Cosmos_Pin_Set_Functionality']= { tableData: data, tableDiv: 'times-div-Cosmos_Pin_Set_Functionality'}
-return data;
-}
+                suiteTableInitFunctions.push('tableData_Cosmos_Pin_Set_Functionality');
+                function tableData_Cosmos_Pin_Set_Functionality() {
+                var data = new google.visualization.DataTable();
+                data.addColumn('number', 'Number');
+                data.addColumn('string', 'Method');
+                data.addColumn('string', 'Class');
+                data.addColumn('number', 'Time (ms)');
+                data.addRows(1);
+                data.setCell(0, 0, 0)
+                data.setCell(0, 1, 'verifyPinsetUpSuccessfully')
+                data.setCell(0, 2, 'mobile.tests.appRegistrationTest.PinRegistrationTest')
+                data.setCell(0, 3, 8);
+                window.suiteTableData['Cosmos_Pin_Set_Functionality']= { tableData: data, tableDiv:
+                'times-div-Cosmos_Pin_Set_Functionality'}
+                return data;
+                }
               </script>
               <span class="suite-total-time">Total running time: 8 ms</span>
               <div id="times-div-Cosmos_Pin_Set_Functionality">
@@ -237,7 +240,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">mobile.tests.cosmospinsetuptest.Login1CosmosTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">mobile.tests.appRegistrationTest.PinRegistrationTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">beforeSuiteWorks</span>
                 <span class="method-start">0 ms</span>

@@ -1,0 +1,61 @@
+{
+  "myIdentityText": {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='My Identity']"
+  },
+
+  "myIdentityTab": {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='My Identity']//parent::android.view.ViewGroup)"
+  },
+
+  "verifiableCredentialsText": {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Verifiable Credentials']"
+  },
+
+  "verifiableCredentialsTab": {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Verifiable Credentials']//parent::android.view.ViewGroup)"
+  },
+
+  "recoveryMnemonicText" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Recovery Mnemonic']"
+  },
+
+  "recoveryMnemonicTab" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Recovery Mnemonic']//parent::android.view.ViewGroup)"
+  },
+
+  "zeroTrustText" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='Zero Trust']"
+  },
+
+  "zeroTrustTab" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='Zero Trust']//parent::android.view.ViewGroup)"
+  },
+
+  "aboutTextOfMenuList" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='About']"
+  },
+
+  "aboutTabOfMenuList" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='About']//parent::android.view.ViewGroup)"
+  },
+
+  "endUserLicenseAgreement(EULA)Text" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "//*[@text='End User License Agreement (EULA)']"
+  },
+
+  "endUserLicenseAgreement(EULA)Tab" : {
+    "locatorType" : "xpath",
+    "androidLocator" : "(//*[@text='End User License Agreement (EULA)']//parent::android.view.ViewGroup)"
+  }
+}
