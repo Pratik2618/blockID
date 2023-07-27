@@ -46,19 +46,18 @@ public class MyIdentityScreen {
         element.click("verifyEnterYourEmailAddressFieldBox");
     }
 
-    public void sendEmailOnEmailAddressFieldBox (String enterText) {
+    public void sendEmailOnEmailAddressFieldBox (String enterMailId) {
         wait.waitUntilElementIsVisible("verifyEnterYourEmailAddressFieldBox");
-        element.enterText("verifyEnterYourEmailAddressFieldBox", enterText);
+        element.enterText("verifyEnterYourEmailAddressFieldBox", enterMailId);
         ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.NUMPAD_ENTER));
         element.click("verifyEnterYourEmailAddressFieldBox");
         ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
     }
-    public void clickOnContinueButtonOfEmail(){
 
+    public void clickOnContinueButtonOfEmail(){
         wait.waitUntilElementIsVisible("verifyContinueButtonOfEmailVerification");
         wait.waitUntilElementIsClickable("verifyContinueButtonOfEmailVerification");
         element.click("verifyContinueButtonOfEmailVerification");
-
     }
 
     public void verifyCheckYourEmailTextOfMail (String enterText){

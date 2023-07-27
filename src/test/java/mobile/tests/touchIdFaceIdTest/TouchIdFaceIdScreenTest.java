@@ -35,6 +35,4 @@ public class TouchIdFaceIdScreenTest extends Base {
 
     }
 
-
-
 }
