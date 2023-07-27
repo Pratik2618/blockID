@@ -10,6 +10,7 @@ public class PinRegistrationTest extends Base {
     PinRegistration pinRegistration;
     Wait wait;
 
+
     @Test
     public void verifyThankYouMessageAfterSuccessfullyPinRegistration () {
 

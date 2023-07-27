@@ -49,7 +49,9 @@ public class MyIdentityScreen {
     public void sendEmailOnEmailAddressFieldBox (String enterMailId) {
         wait.waitUntilElementIsVisible("verifyEnterYourEmailAddressFieldBox");
         element.enterText("verifyEnterYourEmailAddressFieldBox", enterMailId);
-        ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.NUMPAD_ENTER));
+//        ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.NUMPAD_ENTER));
+
+        ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
         element.click("verifyEnterYourEmailAddressFieldBox");
         ((AndroidDriver) driver).pressKey(new KeyEvent(AndroidKey.ENTER));
     }

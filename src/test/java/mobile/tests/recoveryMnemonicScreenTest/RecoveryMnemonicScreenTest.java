@@ -5,6 +5,7 @@ import mobile.objectRepository.mainMenuScreen.MainMenuScreen;
 import mobile.objectRepository.appRegistration.PinRegistration;
 import mobile.objectRepository.touchIdFaceId.TouchIdFaceIdScreen;
 import mobile.objectRepository.recoveryMnemonicScreen.RecoveryMnemonicScreen;
+import mobile.objectRepository.utils.Utils;
 import org.testng.annotations.Test;
 
 public class RecoveryMnemonicScreenTest extends Base {
@@ -13,16 +14,20 @@ public class RecoveryMnemonicScreenTest extends Base {
     TouchIdFaceIdScreen touchIdFaceIdScreen;
     MainMenuScreen mainMenuScreen;
     RecoveryMnemonicScreen recoveryMnemonicScreen;
+    Utils utils;
 
     @Test
     public void verifyRecoveryMnemonicFunctionality () {
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.verifyEnableTouchIdText("Enable Touch ID / Face ID");
@@ -50,13 +55,17 @@ public class RecoveryMnemonicScreenTest extends Base {
 
     @Test
     public void verifyZeroTrustFunctionality () {
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -78,13 +87,16 @@ public class RecoveryMnemonicScreenTest extends Base {
     @Test
     public void verifyAppBuildAndVersionOfAboutScreen () {
 
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -105,13 +117,16 @@ public class RecoveryMnemonicScreenTest extends Base {
      @Test
     public void verifyEndUserLicenseAgreementFunctionality () {
 
-         pinRegistration = new PinRegistration(driver);
-         pinRegistration.clickOnContinueTab();
-         pinRegistration.clickOnAuthLoginPin();
-         pinRegistration.clickOnPinFieldBox();
-         pinRegistration.sendPinOnPinFieldBox("00000000");
-         pinRegistration.clickOnConfirmNewPinFieldBox();
-         pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+         utils = new Utils(driver);
+         utils.setPinRegistration();
+
+//         pinRegistration = new PinRegistration(driver);
+//         pinRegistration.clickOnContinueTab();
+//         pinRegistration.clickOnAuthLoginPin();
+//         pinRegistration.clickOnPinFieldBox();
+//         pinRegistration.sendPinOnPinFieldBox("00000000");
+//         pinRegistration.clickOnConfirmNewPinFieldBox();
+//         pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
          touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
          touchIdFaceIdScreen.verifyEnableTouchIdText("Enable Touch ID / Face ID");

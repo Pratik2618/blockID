@@ -5,6 +5,8 @@ import mobile.objectRepository.mainMenuScreen.MainMenuScreen;
 import mobile.objectRepository.myIdentityScreen.MyIdentityScreen;
 import mobile.objectRepository.appRegistration.PinRegistration;
 import mobile.objectRepository.touchIdFaceId.TouchIdFaceIdScreen;
+import mobile.objectRepository.utils.Utils;
+import mobile.tests.appRegistrationTest.PinRegistrationTest;
 import org.testng.annotations.Test;
 
 public class MyIdentityScreenTest extends Base {
@@ -13,16 +15,21 @@ public class MyIdentityScreenTest extends Base {
     MainMenuScreen mainMenuScreen;
     MyIdentityScreen myIdentityScreen;
 
+    Utils utils ;
+
+
     @Test
     public void verifyEnrollEmailToMyIdentity() {
+        utils = new Utils(driver);
+        utils.setPinRegistration();
 
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -47,13 +54,17 @@ public class MyIdentityScreenTest extends Base {
 
     @Test
     public void verifyEnrollPhoneNumberToMyIdentity (){
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -72,13 +83,16 @@ public class MyIdentityScreenTest extends Base {
 
     @Test
     public void verifyEnrollLiveIdToMyIdentity (){
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -103,13 +117,16 @@ public class MyIdentityScreenTest extends Base {
 
     @Test
     public void verifyEnrollDriversLicenseToMyIdentity () {
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+          utils = new Utils(driver);
+          utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -137,13 +154,17 @@ public class MyIdentityScreenTest extends Base {
 
     @Test
     public void verifyEnrollPassportToMyIdentity () {
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.clickOnMAyBeLaterTab();
@@ -172,13 +193,16 @@ public class MyIdentityScreenTest extends Base {
 
     @Test
     public void verifyIdentityValueOfYourDidOfMyIdentity () {
-        pinRegistration = new PinRegistration(driver);
-        pinRegistration.clickOnContinueTab();
-        pinRegistration.clickOnAuthLoginPin();
-        pinRegistration.clickOnPinFieldBox();
-        pinRegistration.sendPinOnPinFieldBox("00000000");
-        pinRegistration.clickOnConfirmNewPinFieldBox();
-        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
+        utils = new Utils(driver);
+        utils.setPinRegistration();
+
+//        pinRegistration = new PinRegistration(driver);
+//        pinRegistration.clickOnContinueTab();
+//        pinRegistration.clickOnAuthLoginPin();
+//        pinRegistration.clickOnPinFieldBox();
+//        pinRegistration.sendPinOnPinFieldBox("00000000");
+//        pinRegistration.clickOnConfirmNewPinFieldBox();
+//        pinRegistration.sendPinOnConfirmNewPinFieldBox("00000000");
 
         touchIdFaceIdScreen = new TouchIdFaceIdScreen(driver);
         touchIdFaceIdScreen.verifyEnableTouchIdText("Enable Touch ID / Face ID");
