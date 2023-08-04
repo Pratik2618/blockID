@@ -1,7 +1,7 @@
 {
-  "run": "emailenrollAndroid",
+  "run": "blockIdAppAndroid",
   "config": {
-    "emailenrollAndroid": {
+    "blockIdAppAndroid": {
       "platform": "android",
       "capabilities": {
         "platformName": "Android",
@@ -14,7 +14,7 @@
         "appium:appActivity": "com.onekosmos.kernel.ui.LauncherActivity"
       },
       "testNGsuite": [
-        "emailenroll.xml"
+        "pinRegistration.xml"
       ],
       "appiumPlatform": "local",
       "appiumURL": "http://0.0.0.0:4723/wd/hub"

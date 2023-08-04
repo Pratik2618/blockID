@@ -1,14 +1,29 @@
 <?xml version = "1.0" encoding = "UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Pin Registration Functionality">
+<suite name="BlockId mobile app functionality">
 
     <test name="verify Thank You Message">
         <classes>
-            <class name="mobile.tests.appRegistrationTest.PinRegistrationTest">
-                <methods>
-                    <include name="verifyThankYouMessageAfterSuccessfullyPinRegistration"></include>
-                </methods>
-            </class>
+            <class name="mobile.tests.appRegistrationTest.PinRegistrationTest"/>
         </classes>
     </test>
+
+    <test name="verify Menu icon of app">
+        <classes>
+            <class name="mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest"/>
+        </classes>
+    </test>
+
+    <test name="verify Recovery mnemonic screen">
+        <classes>
+            <class name="mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest"/>
+        </classes>
+    </test>
+
+    <test name="verify My Identity screen">
+        <classes>
+            <class name="mobile.tests.myIdentityScreenTest.MyIdentityScreenTest"/>
+        </classes>
+    </test>
+
 </suite>

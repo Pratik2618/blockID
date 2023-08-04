@@ -1,5 +1,6 @@
 package com.onekosmos.kernel.blockid.performaction.autoweb;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -24,6 +25,16 @@ public class Wait {
     public void waitUntilElementIsClickable(String locatorValue) {
         new WebDriverWait(driver, Duration.ofSeconds(60))
                 .until(ExpectedConditions.elementToBeClickable(element.find(locatorValue)));
+    }
+    public void getXandY(String locatorValue) {
+
+        System.out.println(locatorValue);
+        int x = element.find(locatorValue).getLocation().getX();
+        driver.findElement(By.xpath("")).click();
+        System.out.println("x:=" + x);
+        int y = element.find(locatorValue).getLocation().getY();
+        System.out.println("y:=" + y);
+
     }
 
     public void waitUntilElementIsVisible(String locatorValue) {

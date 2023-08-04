@@ -1,16 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Cosmos Pin Set Functionality]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="verify Pin setUp Successfully(failed)">
+<suite name="Failed suite [BlockId mobile app functionality]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="verify Recovery mnemonic screen(failed)">
     <classes>
-      <class name="mobile.tests.appRegistrationTest.PinRegistrationTest">
+      <class name="mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest">
         <methods>
-          <include name="verifyPinsetUpSuccessfully"/>
+          <include name="verifyEndUserLicenseAgreementFunctionality"/>
           <include name="tearDown"/>
           <include name="init"/>
           <include name="beforeSuiteWorks"/>
         </methods>
-      </class> <!-- mobile.tests.appRegistrationTest.PinRegistrationTest -->
+      </class> <!-- mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest -->
     </classes>
-  </test> <!-- verify Pin setUp Successfully(failed) -->
-</suite> <!-- Failed suite [Cosmos Pin Set Functionality] -->
+  </test> <!-- verify Recovery mnemonic screen(failed) -->
+  <test thread-count="5" name="verify My Identity screen(failed)">
+    <classes>
+      <class name="mobile.tests.myIdentityScreenTest.MyIdentityScreenTest">
+        <methods>
+          <include name="verifyEnrollDriversLicenseToMyIdentity"/>
+          <include name="tearDown"/>
+          <include name="init"/>
+          <include name="beforeSuiteWorks"/>
+          <include name="verifyEnrollPassportToMyIdentity"/>
+          <include name="verifyEnrollLiveIdToMyIdentity"/>
+        </methods>
+      </class> <!-- mobile.tests.myIdentityScreenTest.MyIdentityScreenTest -->
+    </classes>
+  </test> <!-- verify My Identity screen(failed) -->
+</suite> <!-- Failed suite [BlockId mobile app functionality] -->

@@ -218,7 +218,4 @@ public class MyIdentityScreenTest extends Base {
         myIdentityScreen.verifyIdentityValueOfYourDidOfMyIdentityPage();
     }
 
-
-
-
 }

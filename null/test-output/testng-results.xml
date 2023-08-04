@@ -1,34 +1,1565 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="12" passed="8" failed="4" skipped="0">
   <reporter-output>
+    <line>
+      <![CDATA[Click on verifyUserAgreementLink]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyUserAgreementLink]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyBackButtonOf1cosmosAgreement]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyBackButtonOf1cosmosAgreement]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Verify element VerifyPinRegistration text is equal to PIN Registration]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isPIN Registration]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element VerifyEnterNewPin text is equal to Enter new PIN]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnter new PIN]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element VerifyConfirmNewPin text is equal to Confirm new PIN]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isConfirm new PIN]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyThankYouMessage text is equal to Thank You!]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isThank You!]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Verify element yourPasscodeText text is equal to Your passcode]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isYour passcode]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Verify element menuText text is equal to Menu]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isMenu]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on closeTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on closeTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element yourPasscodeText text is equal to Your passcode]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isYour passcode]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Verify element aboutTextOfMenuList text is equal to About]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isAbout]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on aboutTabOfMenuList]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on aboutTabOfMenuList]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyAboutTextAfterClickOnAboutOfMenuList text is equal to About]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isAbout]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyAppVersionValueInAboutScreen text is equal to 1.9.41]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text is1.9.41]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyAppBuildValueInAboutScreen text is equal to 64ABF85C)]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text is64ABF85C)]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Verify element recoveryMnemonicText text is equal to Recovery Mnemonic]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isRecovery Mnemonic]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on recoveryMnemonicTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on recoveryMnemonicTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyEnterYourPinTextAfterClickOnRecoveryMnemonic text is equal to Enter your PIN]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnter your PIN]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyRecoveryMnemonicTextAfterEnterThePin text is equal to Recovery Mnemonic]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isRecovery Mnemonic]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyNextButtonOfRecoveryMnemonic text is equal to Next]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isNext]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyNextButtonOfRecoveryMnemonic]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyNextButtonOfRecoveryMnemonic]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyClickOnNextButtonTwelveMnemonicPhrasesShouldOpen text is equal to These 12 words are the only way to restore your Identity in case of loss or damage to your device. Save them somewhere safe and secret.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isThese 12 words are the only way to restore your Identity in case of loss or damage to your device. Save them somewhere safe and secret.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCopyPhrasesTextAtRecoveryMnemonicScreen text is equal to Copy phrases]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCopy phrases]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCopyPhrasesTextAtRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCopyPhrasesTextAtRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyScreenshotTextAtRecoveryMnemonicScreen text is equal to Screenshot]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isScreenshot]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyScreenshotTextAtRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyScreenshotTextAtRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyOkButtonOfRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyOkButtonOfRecoveryMnemonicScreen]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Verify element zeroTrustText text is equal to Zero Trust]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isZero Trust]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on zeroTrustTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on zeroTrustTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyZeroTrustTextAfterClickOnZeroTrust text is equal to Zero Trust]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isZero Trust]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyTouchIdFaceIdEnabledTextAfterClickOnZeroTrust text is equal to Touch ID / Face ID is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isTouch ID / Face ID is enabled]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyScreenLockEnabledTextAfterClickOnZeroTrust text is equal to Screen lock is enabled]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isScreen lock is enabled]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyDeviceNotRootedTextAfterClickOnZeroTrust text is equal to The device is not rooted]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isThe device is not rooted]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyDriversLicenseText text is equal to Drivers License]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isDrivers License]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on clickDriversLicenseTextOfMyIdentity]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on clickDriversLicenseTextOfMyIdentity]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense text is equal to Live ID enrollment is mandatory to enroll driving license. Please complete Live ID enrollment first.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isLive ID enrollment is mandatory to enroll driving license. Please complete Live ID enrollment first.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCancel]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[Click on clickDriversLicenseTextOfMyIdentity]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on clickDriversLicenseTextOfMyIdentity]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyNextTabOfLiveId text is equal to Next]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isNext]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyNextTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyNextTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyAdjustFaceUntilRedToGreenText text is equal to Adjust your face position until red box turns green.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isAdjust your face position until red box turns green.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyPleaseAlignFaceProperlyMessage text is equal to Please align face properly]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isPlease align face properly]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Verify element myIdentityText text is equal to My Identity]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isMy Identity]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyEmailTextOfMyIdentityScreen text is equal to Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEmail]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEmailTabOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEmailTabOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[Enter text atul.sharma@1kosmos.com at locator verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnterYourEmailAddressFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButtonOfEmailVerification]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButtonOfEmailVerification]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCheckYourEmailText text is equal to Check Your Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCheck Your Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCheckEmailTab text is equal to Check Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCheck Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyResendEmailTab text is equal to Resend Email]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isResend Email]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCheckEmailTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCheckEmailTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyInboxTextOfMail text is equal to Inbox]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isInbox]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyLiveIdTextOfMyIdentityScreen text is equal to Live ID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isLive ID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on clickOnLiveIdTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on clickOnLiveIdTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCancel]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+    </line>
+    <line>
+      <![CDATA[<img src="D:\atul.sharma\blockID\src\test\resources\failedTestScreenshot\verifyEnrollLiveIdToMyIdentity_3sOsU.png" alt="test" width="1024" height="640">]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyPassportTextOfMyIdentityScreen text is equal to Passport]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isPassport]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on clickOnPassportTextOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on clickOnPassportTextOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense text is equal to Live ID enrollment is mandatory to enroll passport. Please complete Live ID enrollment first.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isLive ID enrollment is mandatory to enroll passport. Please complete Live ID enrollment first.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isCancel]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[Click on clickOnPassportTextOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on clickOnPassportTextOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyNextTabOfLiveId text is equal to Next]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isNext]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyNextTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyNextTabOfLiveId]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyAdjustFaceUntilRedToGreenText text is equal to Adjust your face position until red box turns green.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isAdjust your face position until red box turns green.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyPleaseAlignFaceProperlyMessage text is equal to Please align face properly]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isPlease align face properly]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyPhoneTextOfIdentityScreen text is equal to Phone]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isPhone]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPhoneTabOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPhoneTabOfMyIdentityScreen]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyNoSimDetectedText text is equal to No SIM detected!]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isNo SIM detected!]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyActiveSimRequiredText text is equal to An active SIM is required to proceed with registration. Insert a SIM and try again.]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isAn active SIM is required to proceed with registration. Insert a SIM and try again.]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyContinueButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+    </line>
+    <line>
+      <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
+    <line>
+      <![CDATA[Click on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+    </line>
+    <line>
+      <![CDATA[Click on okButton]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on okButton]]>
+    </line>
+    <line>
+      <![CDATA[Click on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on imageOfMenu]]>
+    </line>
+    <line>
+      <![CDATA[Click on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clicked on myIdentityTab]]>
+    </line>
+    <line>
+      <![CDATA[Verify element verifyYourDidTextOfMyIdentityScreen text is equal to Your DID]]>
+    </line>
+    <line>
+      <![CDATA[Get element Text isYour DID]]>
+    </line>
+    <line>
+      <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+    </line>
   </reporter-output>
-  <suite started-at="2023-07-20T16:18:48 IST" name="Cosmos Pin Set Functionality" finished-at="2023-07-20T16:18:49 IST" duration-ms="709">
+  <suite started-at="2023-08-04T14:03:05 IST" name="BlockId mobile app functionality" finished-at="2023-08-04T14:19:09 IST" duration-ms="964809">
     <groups>
     </groups>
-    <test started-at="2023-07-20T16:18:48 IST" name="verify Pin setUp Successfully" finished-at="2023-07-20T16:18:49 IST" duration-ms="709">
+    <test started-at="2023-08-04T14:03:05 IST" name="verify Thank You Message" finished-at="2023-08-04T14:03:37 IST" duration-ms="32152">
       <class name="mobile.tests.appRegistrationTest.PinRegistrationTest">
-        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@1afd44cb]" started-at="2023-07-20T16:18:48 IST" name="beforeSuiteWorks" finished-at="2023-07-20T16:18:48 IST" duration-ms="72" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeSuiteWorks -->
-        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@1afd44cb]" started-at="2023-07-20T16:18:48 IST" name="init" finished-at="2023-07-20T16:18:49 IST" duration-ms="666" status="PASS">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@291ae]" started-at="2023-08-04T14:03:05 IST" name="init" finished-at="2023-08-04T14:03:16 IST" duration-ms="11795" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="verifyPinsetUpSuccessfully()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@1afd44cb]" started-at="2023-07-20T16:18:49 IST" name="verifyPinsetUpSuccessfully" finished-at="2023-07-20T16:18:49 IST" duration-ms="8" status="FAIL">
-          <exception class="java.lang.IllegalArgumentException">
+        <test-method signature="verifyThankYouMessageAfterSuccessfullyPinRegistration()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@291ae]" started-at="2023-08-04T14:03:16 IST" name="verifyThankYouMessageAfterSuccessfullyPinRegistration" finished-at="2023-08-04T14:03:36 IST" duration-ms="19804" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyUserAgreementLink]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyUserAgreementLink]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyBackButtonOf1cosmosAgreement]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyBackButtonOf1cosmosAgreement]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Verify element VerifyPinRegistration text is equal to PIN Registration]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isPIN Registration]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element VerifyEnterNewPin text is equal to Enter new PIN]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnter new PIN]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element VerifyConfirmNewPin text is equal to Confirm new PIN]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isConfirm new PIN]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyThankYouMessage text is equal to Thank You!]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isThank You!]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyThankYouMessageAfterSuccessfullyPinRegistration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@291ae]" started-at="2023-08-04T14:03:36 IST" name="tearDown" finished-at="2023-08-04T14:03:37 IST" duration-ms="520" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyThankYouMessageAfterSuccessfullyPinRegistration status=SUCCESS method=PinRegistrationTest.verifyThankYouMessageAfterSuccessfullyPinRegistration()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@291ae] output=Click on verifyUserAgreementLink]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobile.tests.appRegistrationTest.PinRegistrationTest -->
+    </test> <!-- verify Thank You Message -->
+    <test started-at="2023-08-04T14:03:37 IST" name="verify Menu icon of app" finished-at="2023-08-04T14:04:14 IST" duration-ms="36713">
+      <class name="mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest@5af3afd9]" started-at="2023-08-04T14:03:37 IST" name="init" finished-at="2023-08-04T14:03:48 IST" duration-ms="10957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyMenuIconOfApp()[pri:0, instance:mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest@5af3afd9]" started-at="2023-08-04T14:03:48 IST" name="verifyMenuIconOfApp" finished-at="2023-08-04T14:04:13 IST" duration-ms="25389" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Verify element yourPasscodeText text is equal to Your passcode]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isYour passcode]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Verify element menuText text is equal to Menu]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isMenu]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on closeTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on closeTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element yourPasscodeText text is equal to Your passcode]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isYour passcode]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyMenuIconOfApp -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest@5af3afd9]" started-at="2023-08-04T14:04:13 IST" name="tearDown" finished-at="2023-08-04T14:04:14 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyMenuIconOfApp status=SUCCESS method=TouchIdFaceIdScreenTest.verifyMenuIconOfApp()[pri:0, instance:mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest@5af3afd9] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobile.tests.touchIdFaceIdTest.TouchIdFaceIdScreenTest -->
+    </test> <!-- verify Menu icon of app -->
+    <test started-at="2023-08-04T14:04:14 IST" name="verify Recovery mnemonic screen" finished-at="2023-08-04T14:07:12 IST" duration-ms="177941">
+      <class name="mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest">
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:04:14 IST" name="init" finished-at="2023-08-04T14:04:25 IST" duration-ms="11065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyAppBuildAndVersionOfAboutScreen()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:04:25 IST" name="verifyAppBuildAndVersionOfAboutScreen" finished-at="2023-08-04T14:05:27 IST" duration-ms="62515" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Verify element aboutTextOfMenuList text is equal to About]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isAbout]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on aboutTabOfMenuList]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on aboutTabOfMenuList]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyAboutTextAfterClickOnAboutOfMenuList text is equal to About]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isAbout]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyAppVersionValueInAboutScreen text is equal to 1.9.41]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text is1.9.41]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyAppBuildValueInAboutScreen text is equal to 64ABF85C)]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text is64ABF85C)]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyAppBuildAndVersionOfAboutScreen -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:27 IST" name="tearDown" finished-at="2023-08-04T14:05:28 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAppBuildAndVersionOfAboutScreen status=SUCCESS method=RecoveryMnemonicScreenTest.verifyAppBuildAndVersionOfAboutScreen()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:28 IST" name="init" finished-at="2023-08-04T14:05:39 IST" duration-ms="10978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEndUserLicenseAgreementFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:39 IST" name="verifyEndUserLicenseAgreementFunctionality" finished-at="2023-08-04T14:05:46 IST" duration-ms="7370" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Input must be set]]>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a4b2009d-d6b1-482c-b7d4-90f5ddc49245, findElement {using=id, value=com.onekosmos.kernel.blockid:id/btn_device_auth_login}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a4b2009d-d6b1-482c-b7d4-90f5ddc49245]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalArgumentException: Input must be set
-at org.openqa.selenium.internal.Require.nonNull(Require.java:60)
-at org.openqa.selenium.support.ui.FluentWait.<init>(FluentWait.java:94)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:74)
-at org.openqa.selenium.support.ui.WebDriverWait.<init>(WebDriverWait.java:43)
-at com.onekosmos.kernel.blockid.performaction.autoweb.Wait.waitUntilElementIsVisible(Wait.java:30)
-at mobile.objectRepository.appRegistration.PinRegistration.clickOnUserAgreementLink(Login1Cosmos.java:27)
-at mobile.tests.appRegistrationTest.PinRegistrationTest.verifyPinsetUpSuccessfully(Login1CosmosTest.java:16)
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [a4b2009d-d6b1-482c-b7d4-90f5ddc49245, findElement {using=id, value=com.onekosmos.kernel.blockid:id/btn_device_auth_login}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: a4b2009d-d6b1-482c-b7d4-90f5ddc49245
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:350)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Element.getElementFromValue(Element.java:61)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Element.find(Element.java:94)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Wait.waitUntilElementIsVisible(Wait.java:42)
+at mobile.objectRepository.appRegistration.PinRegistration.clickOnAuthLoginPin(PinRegistration.java:40)
+at mobile.objectRepository.utils.Utils.setPinRegistration(Utils.java:15)
+at mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest.verifyEndUserLicenseAgreementFunctionality(RecoveryMnemonicScreenTest.java:121)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -56,34 +1587,374 @@ at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.jav
 at runner.Runner.main(Runner.java:11)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalArgumentException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- verifyPinsetUpSuccessfully -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@1afd44cb]" started-at="2023-07-20T16:18:49 IST" name="tearDown" finished-at="2023-07-20T16:18:49 IST" duration-ms="3" status="FAIL">
+        </test-method> <!-- verifyEndUserLicenseAgreementFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:46 IST" name="tearDown" finished-at="2023-08-04T14:05:46 IST" duration-ms="404" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyPinsetUpSuccessfully status=FAILURE method=Login1CosmosTest.verifyPinsetUpSuccessfully()[pri:0, instance:mobile.tests.appRegistrationTest.PinRegistrationTest@1afd44cb] output={null}]]]>
+                <![CDATA[[TestResult name=verifyEndUserLicenseAgreementFunctionality status=FAILURE method=RecoveryMnemonicScreenTest.verifyEndUserLicenseAgreementFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a] output=Click on verifyContinueButton]]]>
               </value>
             </param>
           </params>
-          <exception class="java.lang.NullPointerException">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:46 IST" name="init" finished-at="2023-08-04T14:05:57 IST" duration-ms="10969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyRecoveryMnemonicFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:05:57 IST" name="verifyRecoveryMnemonicFunctionality" finished-at="2023-08-04T14:06:32 IST" duration-ms="34225" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Verify element recoveryMnemonicText text is equal to Recovery Mnemonic]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isRecovery Mnemonic]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on recoveryMnemonicTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on recoveryMnemonicTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyEnterYourPinTextAfterClickOnRecoveryMnemonic text is equal to Enter your PIN]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnter your PIN]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyEnterPinFieldBoxAfterClickOnRecoveryMnemonic]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyRecoveryMnemonicTextAfterEnterThePin text is equal to Recovery Mnemonic]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isRecovery Mnemonic]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyNextButtonOfRecoveryMnemonic text is equal to Next]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isNext]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyNextButtonOfRecoveryMnemonic]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyNextButtonOfRecoveryMnemonic]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyClickOnNextButtonTwelveMnemonicPhrasesShouldOpen text is equal to These 12 words are the only way to restore your Identity in case of loss or damage to your device. Save them somewhere safe and secret.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isThese 12 words are the only way to restore your Identity in case of loss or damage to your device. Save them somewhere safe and secret.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCopyPhrasesTextAtRecoveryMnemonicScreen text is equal to Copy phrases]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCopy phrases]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCopyPhrasesTextAtRecoveryMnemonicScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCopyPhrasesTextAtRecoveryMnemonicScreen]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyScreenshotTextAtRecoveryMnemonicScreen text is equal to Screenshot]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isScreenshot]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyScreenshotTextAtRecoveryMnemonicScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyScreenshotTextAtRecoveryMnemonicScreen]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyOkButtonOfRecoveryMnemonicScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyOkButtonOfRecoveryMnemonicScreen]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyRecoveryMnemonicFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:06:32 IST" name="tearDown" finished-at="2023-08-04T14:06:32 IST" duration-ms="414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyRecoveryMnemonicFunctionality status=SUCCESS method=RecoveryMnemonicScreenTest.verifyRecoveryMnemonicFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:06:32 IST" name="init" finished-at="2023-08-04T14:06:43 IST" duration-ms="10829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyZeroTrustFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:06:43 IST" name="verifyZeroTrustFunctionality" finished-at="2023-08-04T14:07:11 IST" duration-ms="28320" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Verify element zeroTrustText text is equal to Zero Trust]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isZero Trust]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on zeroTrustTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on zeroTrustTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyZeroTrustTextAfterClickOnZeroTrust text is equal to Zero Trust]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isZero Trust]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyTouchIdFaceIdEnabledTextAfterClickOnZeroTrust text is equal to Touch ID / Face ID is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isTouch ID / Face ID is enabled]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyScreenLockEnabledTextAfterClickOnZeroTrust text is equal to Screen lock is enabled]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isScreen lock is enabled]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyDeviceNotRootedTextAfterClickOnZeroTrust text is equal to The device is not rooted]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isThe device is not rooted]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyZeroTrustFunctionality -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a]" started-at="2023-08-04T14:07:11 IST" name="tearDown" finished-at="2023-08-04T14:07:12 IST" duration-ms="412" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyZeroTrustFunctionality status=SUCCESS method=RecoveryMnemonicScreenTest.verifyZeroTrustFunctionality()[pri:0, instance:mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest@4f18837a] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobile.tests.recoveryMnemonicScreenTest.RecoveryMnemonicScreenTest -->
+    </test> <!-- verify Recovery mnemonic screen -->
+    <test started-at="2023-08-04T14:07:12 IST" name="verify My Identity screen" finished-at="2023-08-04T14:19:09 IST" duration-ms="717867">
+      <class name="mobile.tests.myIdentityScreenTest.MyIdentityScreenTest">
+        <test-method is-config="true" signature="beforeSuiteWorks()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:03:05 IST" name="beforeSuiteWorks" finished-at="2023-08-04T14:03:05 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteWorks -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:07:12 IST" name="init" finished-at="2023-08-04T14:07:19 IST" duration-ms="7715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollDriversLicenseToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:07:19 IST" name="verifyEnrollDriversLicenseToMyIdentity" finished-at="2023-08-04T14:10:46 IST" duration-ms="206909" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null]]>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [041d3bf2-cfd8-4820-bb7e-61451b4b3ae6, getElementText {id=00000000-0000-0921-ffff-ffff0000018b}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (041d3bf2-cfd8-4820-bb7e-61451b4b3ae6)] -> id: com.onekosmos.kernel.blockid:id/txt_msg]
+Session ID: 041d3bf2-cfd8-4820-bb7e-61451b4b3ae6]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
-at com.onekosmos.kernel.blockid.framework.init.Base.tearDown(Base.java:321)
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [041d3bf2-cfd8-4820-bb7e-61451b4b3ae6, getElementText {id=00000000-0000-0921-ffff-ffff0000018b}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (041d3bf2-cfd8-4820-bb7e-61451b4b3ae6)] -> id: com.onekosmos.kernel.blockid:id/txt_msg]
+Session ID: 041d3bf2-cfd8-4820-bb7e-61451b4b3ae6
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Verify.elementTextIsEqualTo(Verify.java:96)
+at mobile.objectRepository.myIdentityScreen.MyIdentityScreen.verifyPleaseAlignFaceProperlyMessageText(MyIdentityScreen.java:159)
+at mobile.tests.myIdentityScreenTest.MyIdentityScreenTest.verifyEnrollDriversLicenseToMyIdentity(MyIdentityScreenTest.java:151)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 at java.base/java.lang.reflect.Method.invoke(Method.java:577)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
-at org.testng.internal.invokers.TestInvoker.runAfterConfigurations(TestInvoker.java:792)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:768)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
 at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
 at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
@@ -107,11 +1978,914 @@ at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.jav
 at runner.Runner.main(Runner.java:11)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyDriversLicenseText text is equal to Drivers License]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isDrivers License]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on clickDriversLicenseTextOfMyIdentity]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on clickDriversLicenseTextOfMyIdentity]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense text is equal to Live ID enrollment is mandatory to enroll driving license. Please complete Live ID enrollment first.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isLive ID enrollment is mandatory to enroll driving license. Please complete Live ID enrollment first.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCancel]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCancelTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[Click on clickDriversLicenseTextOfMyIdentity]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on clickDriversLicenseTextOfMyIdentity]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyNextTabOfLiveId text is equal to Next]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isNext]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyNextTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyNextTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyAdjustFaceUntilRedToGreenText text is equal to Adjust your face position until red box turns green.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isAdjust your face position until red box turns green.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyPleaseAlignFaceProperlyMessage text is equal to Please align face properly]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isPlease align face properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollDriversLicenseToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:10:46 IST" name="tearDown" finished-at="2023-08-04T14:10:47 IST" duration-ms="432" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollDriversLicenseToMyIdentity status=FAILURE method=MyIdentityScreenTest.verifyEnrollDriversLicenseToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mobile.tests.appRegistrationTest.PinRegistrationTest -->
-    </test> <!-- verify Pin setUp Successfully -->
-  </suite> <!-- Cosmos Pin Set Functionality -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:10:47 IST" name="init" finished-at="2023-08-04T14:10:56 IST" duration-ms="9100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:10:56 IST" name="verifyEnrollEmailToMyIdentity" finished-at="2023-08-04T14:11:36 IST" duration-ms="40130" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Verify element myIdentityText text is equal to My Identity]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isMy Identity]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyEmailTextOfMyIdentityScreen text is equal to Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEmail]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEmailTabOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEmailTabOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[Enter text atul.sharma@1kosmos.com at locator verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnterYourEmailAddressFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyContinueButtonOfEmailVerification]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButtonOfEmailVerification]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCheckYourEmailText text is equal to Check Your Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCheck Your Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCheckEmailTab text is equal to Check Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCheck Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyResendEmailTab text is equal to Resend Email]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isResend Email]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCheckEmailTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCheckEmailTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyInboxTextOfMail text is equal to Inbox]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isInbox]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollEmailToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:11:36 IST" name="tearDown" finished-at="2023-08-04T14:11:36 IST" duration-ms="476" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollEmailToMyIdentity status=SUCCESS method=MyIdentityScreenTest.verifyEnrollEmailToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:11:36 IST" name="init" finished-at="2023-08-04T14:11:46 IST" duration-ms="9309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollLiveIdToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:11:46 IST" name="verifyEnrollLiveIdToMyIdentity" finished-at="2023-08-04T14:12:18 IST" duration-ms="32298" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[The element 'By.xpath: (//*[@text='Live ID']//parent::android.view.ViewGroup)' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [93f13a85-0891-4e29-bae2-26a923ea9515, isElementDisplayed {id=00000000-0000-095f-ffff-ffff0000012f}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (93f13a85-0891-4e29-bae2-26a923ea9515)] -> xpath: (//*[@text='Live ID']//parent::android.view.ViewGroup)]
+Session ID: 93f13a85-0891-4e29-bae2-26a923ea9515]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: The element 'By.xpath: (//*[@text='Live ID']//parent::android.view.ViewGroup)' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [93f13a85-0891-4e29-bae2-26a923ea9515, isElementDisplayed {id=00000000-0000-095f-ffff-ffff0000012f}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (93f13a85-0891-4e29-bae2-26a923ea9515)] -> xpath: (//*[@text='Live ID']//parent::android.view.ViewGroup)]
+Session ID: 93f13a85-0891-4e29-bae2-26a923ea9515
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:298)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:304)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:37)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:287)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Wait.waitUntilElementIsVisible(Wait.java:42)
+at mobile.objectRepository.myIdentityScreen.MyIdentityScreen.clickOnLiveIdTextOfMyIdentityPage(MyIdentityScreen.java:125)
+at mobile.tests.myIdentityScreenTest.MyIdentityScreenTest.verifyEnrollLiveIdToMyIdentity(MyIdentityScreenTest.java:110)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.java:83)
+at runner.Runner.main(Runner.java:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyLiveIdTextOfMyIdentityScreen text is equal to Live ID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isLive ID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on clickOnLiveIdTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on clickOnLiveIdTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCancel]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCancelTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollLiveIdToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:12:18 IST" name="tearDown" finished-at="2023-08-04T14:12:19 IST" duration-ms="1546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollLiveIdToMyIdentity status=FAILURE method=MyIdentityScreenTest.verifyEnrollLiveIdToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<h1 style="color:red;font-size:15px;">Test Failed</h1>   ]]>
+            </line>
+            <line>
+              <![CDATA[<img src="D:\atul.sharma\blockID\src\test\resources\failedTestScreenshot\verifyEnrollLiveIdToMyIdentity_3sOsU.png" alt="test" width="1024" height="640">]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:12:19 IST" name="init" finished-at="2023-08-04T14:12:29 IST" duration-ms="9082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollPassportToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:12:29 IST" name="verifyEnrollPassportToMyIdentity" finished-at="2023-08-04T14:15:46 IST" duration-ms="197655" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d62cb5c8-251b-40e4-aa7d-3488990bd838, getElementText {id=00000000-0000-0980-ffff-ffff0000018b}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (d62cb5c8-251b-40e4-aa7d-3488990bd838)] -> id: com.onekosmos.kernel.blockid:id/txt_msg]
+Session ID: d62cb5c8-251b-40e4-aa7d-3488990bd838]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Could not proxy. Proxy error: Could not proxy command to the remote server. Original error: socket hang up
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [d62cb5c8-251b-40e4-aa7d-3488990bd838, getElementText {id=00000000-0000-0980-ffff-ffff0000018b}]
+Capabilities {appium:appActivity: com.onekosmos.kernel.ui.Lau..., appium:appPackage: com.onekosmos.kernel.blockid, appium:autoGrantPermissions: true, appium:databaseEnabled: false, appium:desired: {appActivity: com.onekosmos.kernel.ui.Lau..., appPackage: com.onekosmos.kernel.blockid, autoGrantPermissions: true, deviceName: VCPRWGNVQSO7CINF, deviceOrientation: portrait, noReset: false, platformName: ANDROID, platformVersion: 12.0}, appium:deviceApiLevel: 31, appium:deviceManufacturer: vivo, appium:deviceModel: vivo 1907, appium:deviceName: VCPRWGNVQSO7CINF, appium:deviceOrientation: portrait, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2340, appium:deviceUDID: VCPRWGNVQSO7CINF, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: false, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 84, appium:takesScreenshot: true, appium:viewportRect: {height: 2057, left: 0, top: 84, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (d62cb5c8-251b-40e4-aa7d-3488990bd838)] -> id: com.onekosmos.kernel.blockid:id/txt_msg]
+Session ID: d62cb5c8-251b-40e4-aa7d-3488990bd838
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:242)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:192)
+at com.onekosmos.kernel.blockid.performaction.autoweb.Verify.elementTextIsEqualTo(Verify.java:96)
+at mobile.objectRepository.myIdentityScreen.MyIdentityScreen.verifyPleaseAlignFaceProperlyMessageText(MyIdentityScreen.java:159)
+at mobile.tests.myIdentityScreenTest.MyIdentityScreenTest.verifyEnrollPassportToMyIdentity(MyIdentityScreenTest.java:189)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.onekosmos.kernel.blockid.framework.runner.TestRunner.start(TestRunner.java:83)
+at runner.Runner.main(Runner.java:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyPassportTextOfMyIdentityScreen text is equal to Passport]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isPassport]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on clickOnPassportTextOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on clickOnPassportTextOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyLiveIdEnrollmentMessageAfterClickOnDriversLicense text is equal to Live ID enrollment is mandatory to enroll passport. Please complete Live ID enrollment first.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isLive ID enrollment is mandatory to enroll passport. Please complete Live ID enrollment first.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyCancelTabOfLiveId text is equal to Cancel]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isCancel]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyCancelTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyCancelTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[Click on clickOnPassportTextOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on clickOnPassportTextOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyEnrollLiveIDButtonOfLiveIdEnrollmentMessageAfterClickOnDriversLicense]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyNextTabOfLiveId text is equal to Next]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isNext]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyNextTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyNextTabOfLiveId]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyAdjustFaceUntilRedToGreenText text is equal to Adjust your face position until red box turns green.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isAdjust your face position until red box turns green.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyPleaseAlignFaceProperlyMessage text is equal to Please align face properly]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isPlease align face properly]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollPassportToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:15:46 IST" name="tearDown" finished-at="2023-08-04T14:15:47 IST" duration-ms="441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollPassportToMyIdentity status=FAILURE method=MyIdentityScreenTest.verifyEnrollPassportToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:15:47 IST" name="init" finished-at="2023-08-04T14:15:56 IST" duration-ms="9246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyEnrollPhoneNumberToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:15:56 IST" name="verifyEnrollPhoneNumberToMyIdentity" finished-at="2023-08-04T14:16:24 IST" duration-ms="27701" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyPhoneTextOfIdentityScreen text is equal to Phone]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isPhone]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPhoneTabOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPhoneTabOfMyIdentityScreen]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyNoSimDetectedText text is equal to No SIM detected!]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isNo SIM detected!]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyActiveSimRequiredText text is equal to An active SIM is required to proceed with registration. Insert a SIM and try again.]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isAn active SIM is required to proceed with registration. Insert a SIM and try again.]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEnrollPhoneNumberToMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:16:24 IST" name="tearDown" finished-at="2023-08-04T14:16:24 IST" duration-ms="347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEnrollPhoneNumberToMyIdentity status=SUCCESS method=MyIdentityScreenTest.verifyEnrollPhoneNumberToMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="init()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:16:24 IST" name="init" finished-at="2023-08-04T14:16:33 IST" duration-ms="9353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="verifyIdentityValueOfYourDidOfMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:16:33 IST" name="verifyIdentityValueOfYourDidOfMyIdentity" finished-at="2023-08-04T14:19:09 IST" duration-ms="155743" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Click on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyContinueButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on VerifyAuthLoginPin]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Click on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Enter text 00000000 at locator verifyConfirmNewPinFieldBox]]>
+            </line>
+            <line>
+              <![CDATA[Verify element unableTouchIdText text is equal to Enable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isEnable Touch ID / Face ID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+            <line>
+              <![CDATA[Click on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on mayBeLaterTab]]>
+            </line>
+            <line>
+              <![CDATA[Click on okButton]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on okButton]]>
+            </line>
+            <line>
+              <![CDATA[Click on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on imageOfMenu]]>
+            </line>
+            <line>
+              <![CDATA[Click on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[INFO: Clicked on myIdentityTab]]>
+            </line>
+            <line>
+              <![CDATA[Verify element verifyYourDidTextOfMyIdentityScreen text is equal to Your DID]]>
+            </line>
+            <line>
+              <![CDATA[Get element Text isYour DID]]>
+            </line>
+            <line>
+              <![CDATA[<h1 style="color:green;font-size:15px;">Test Passed</h1> ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyIdentityValueOfYourDidOfMyIdentity -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38]" started-at="2023-08-04T14:19:09 IST" name="tearDown" finished-at="2023-08-04T14:19:09 IST" duration-ms="384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIdentityValueOfYourDidOfMyIdentity status=SUCCESS method=MyIdentityScreenTest.verifyIdentityValueOfYourDidOfMyIdentity()[pri:0, instance:mobile.tests.myIdentityScreenTest.MyIdentityScreenTest@12468a38] output=Click on verifyContinueButton]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- mobile.tests.myIdentityScreenTest.MyIdentityScreenTest -->
+    </test> <!-- verify My Identity screen -->
+  </suite> <!-- BlockId mobile app functionality -->
 </testng-results>

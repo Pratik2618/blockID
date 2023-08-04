@@ -39,6 +39,7 @@ public class RecoveryMnemonicScreen {
         verify.elementTextIsEqualTo("verifyRecoveryMnemonicTextAfterEnterThePin",enterText);
     }
 
+
     public void verifyNextButtonOfRecoveryMnemonic (String enterText) {
         wait.waitUntilElementIsVisible("verifyNextButtonOfRecoveryMnemonic");
         verify.elementTextIsEqualTo("verifyNextButtonOfRecoveryMnemonic",enterText);
